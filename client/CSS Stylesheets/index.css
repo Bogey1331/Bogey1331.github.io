@@ -68,3 +68,7 @@ a {
       float: none;
     }
   }
+
+  #about img {
+      overflow: hidden;
+  }
