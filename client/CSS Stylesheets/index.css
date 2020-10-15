@@ -15,7 +15,39 @@ h1 {
 }
 
 a {
-    text-decoration: none;
+  font-size: 32px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.button {
+  display: inline-block;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin: 5px;
+  border-radius: 60px;
+  background-color: #3c3c3c;
+}
+
+.button:hover {
+  background-color: #06603A;
+}
+
+.social-media-icons {
+  display: block;
+  text-align: center;
+}
+
+.social-media-icons li {
+  display: inline;
+  margin: 5px;
+}
+
+.social-media-icons img {
+  width: 50px;
+  height: 50px;
 }
 
 /*Specific Elements*/
@@ -66,28 +98,25 @@ a {
   }
 
   #about {
-    height: 500px;
-    line-height: 200px;
-    padding: 200px;
-    background-image: url(../images/Background_Images/work-731198_1920-880.jpg);
-    background-size: 1920px, 880px;
+    height: 280px;
+    padding-top: 320px;
+    padding-bottom: 240px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-image: url(work-731198_1920x880.jpg);
   }
   
   #about h1 {
       text-align: center;
   }
 
-  .social-media-icons {
-    display: block;
+  #about #buttons {
     text-align: center;
+    margin: 20px;
   }
 
-  .social-media-icons li {
-    display: inline;
-    margin: 5px;
-  }
-
-  .social-media-icons img{
-    width: 50px;
-    height: 50px;
+  #showcase {
+    height: 200px;
   }
