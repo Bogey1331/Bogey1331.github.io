@@ -15,6 +15,20 @@ h1 {
   font-size: 62px;
 }
 
+h2 {
+  font-size: 54px;
+}
+
+h3 {
+  font-size: 42px;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 32px;
+}
+
 a {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 32px;
@@ -24,12 +38,12 @@ a {
 
 .button {
   display: inline-block;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  padding-left: 50px;
-  padding-right: 50px;
+  height: 32px;
+  width: 150px;
+  padding: 21.5px 25px;
   margin: 5px;
   border-radius: 60px;
+  text-align: center;
   background-color: #3c3c3c;
 }
 
@@ -108,23 +122,40 @@ a {
 
   #showcase-section {
     height: 850px;
+    width: 1725px;
     padding: 100px;
   }
 
   .showcase {
     height: 810px;
-    width: 1600px;
-    padding: 20px 60px;
+    width: 1650px;
+    padding: 20px 37.5px 20px 37.5px;
     border-radius: 60px;
     box-shadow: 0px 12px 16px #00000070;
     background-color: #06603A;
   }
 
+  .showcase #section-header {
+    text-align: center;
+  }
+
   .website {
+    display: inline-block;
     height: 540px;
     width: 450px;
     padding: 30px 25px;
     border-radius: 60px;
+    margin: 30px 22.5px;
     box-shadow: 0px 12px 16px #00000070;
     background-color: #2c2c2c;
+  }
+
+  .website #website-title {
+    text-align: center;
+  }
+
+  .website #website-thumbnail {
+    height: 253.13px;
+    width: 450px;
+    background-color: #ffffff;
   }
