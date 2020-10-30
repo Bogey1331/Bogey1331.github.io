@@ -1,218 +1,67 @@
 /*Global Elements*/
 * {
-    margin: 0;
-    padding: 0;
+  padding: 0;
+  margin: 0;
 }
 
 body {
-    font-family: Verdana, Tahoma, sans-serif;
-    font-weight: bold;
-    color: #ffffff;
-    background-color: #3c3c3c;
-}
-
-h1 {
-  font-size: 62px;
-}
-
-h2 {
-  font-size: 54px;
-}
-
-h3 {
-  font-size: 42px;
-}
-
-p {
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: normal;
-  font-size: 32px;
-}
-
-a {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 32px;
-  text-decoration: none;
+  font: 15px/1.5 Verdana, Tahoma, sans-serif;
   color: #ffffff;
+  background-color: #2c2c2c;
 }
 
-.button {
-  display: inline-block;
-  height: 32px;
-  width: 150px;
-  padding: 21.5px 25px;
-  margin: 5px;
+.container {
+  width: 90%;
+  margin: auto;
+  overflow: hidden;
+}
+
+button {
+  font: 36px Arial, Helvetica, sans-serif;
+  padding: 20px 35px;
+  border: none;
   border-radius: 60px;
-  text-align: center;
+  box-shadow: none;
   background-color: #3c3c3c;
 }
 
-.button:hover {
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* Header */
+header {
+  min-height: 100px;
   background-color: #06603A;
 }
 
-.social-media-icons {
-  display: block;
-  text-align: center;
+header #branding {
+  float: left;
 }
 
-.social-media-icons li {
+header #branding a {
+  font-size: 42px;
+  font-weight: bold;
+  margin: 0;
+}
+
+header nav {
+  float: right;
+}
+
+header li {
+  float: left;
   display: inline;
-  margin: 5px;
+  padding: 0 20px;
 }
 
-.social-media-icons img {
-  width: 50px;
-  height: 50px;
+header nav a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 32px;
+  font-weight: bold;
 }
 
-/*Specific Elements*/
-#main-header {
-    overflow: hidden;
-    height: 50px;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    padding-left: 100px;
-    padding-right: 100px;
-    line-height: 50px;
-    background-color: #06603A;
-  }
-  
-
-  #main-header #title {
-    font-size: 42px;
-    float: left;
-    text-align: center;
-  }
-  
-
-  #main-navbar {
-    float: right;
-  }
-
-  #main-navbar li {
-      list-style: none;
-      display: inline;
-      margin: 10px;
-  }
-
-  #main-navbar a:hover {
-      color: #2c2c2c;
-  }
-
-  #about-section {
-    height: 280px;
-    padding-top: 320px;
-    padding-bottom: 240px;
-    padding-left: 100px;
-    padding-right: 100px;
-    background-repeat: no-repeat;
-    background-size: auto;
-    background-image: url(work-731198_1920x880.jpg);
-  }
-  
-  #about-section h1 {
-      text-align: center;
-  }
-
-  #about-section #buttons {
-    text-align: center;
-    margin: 20px;
-  }
-
-  #showcase-section {
-    height: 850px;
-    padding: 100px 0px;
-  }
-
-  .showcase {
-    height: 810px;
-    width: 1650px;
-    padding: 20px 35px 20px 35px;
-    border-radius: 60px;
-    box-shadow: 0px 12px 16px #00000070;
-    background-color: #06603A;
-  }
-
-  .showcase #section-header {
-    text-align: center;
-  }
-
-  .website {
-    display: inline-block;
-    height: 540px;
-    width: 450px;
-    padding: 30px 25px;
-    border-radius: 60px;
-    margin: 30px 22px;
-    box-shadow: 0px 12px 16px #00000070;
-    background-color: #2c2c2c;
-  }
-
-  .website #website-title {
-    text-align: center;
-  }
-
-  .website #website-thumbnail {
-    height: 253.13px;
-    width: 450px;
-    margin-top: 10px;
-    background-color: #ffffff;
-  }
-
-  .website #website-technologies {
-    height: 130px;
-    width: 450px;
-    margin-top: 10px;
-  }
-
-  .website #website-buttons {
-    text-align: center;
-  }
-
-  .website #website-buttons .button {
-    margin-top: 10px;
-  }
-
-  .website #website-buttons .button:hover {
-    background-color: #06603A;
-  }
-
-  .showcase #SeeMoreButton {
-    text-align: center;
-  }
-
-  .showcase .button:hover {
-    background-color: #2c2c2c;
-  }
-
-  .main-footer {
-    height: 80px;
-    padding: 10px 100px;
-    background-color: #06603A;
-  }
-
-  .main-footer #left-footer {
-    float: left;
-  }
-
-  .main-footer #contact-info {
-    font-size: 18px;
-  }
-
-  .main-footer #left-footer #links {
-    display: inline-block;
-  }
-
-  .main-footer #left-footer #links a {
-    font-size: 18px;
-  }
-
-  .main-footer #right-footer {
-    float: right;
-  }
-
-  .main-footer #right-footer p {
-    font-size: 18px;
-    text-align: left;
-  }
+header nav a:hover {
+  color: #2c2c2c;
+}

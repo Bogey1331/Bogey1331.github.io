@@ -5,8 +5,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width">
         <meta name="description" content="Justin Tolin's Web Design and Developement Portfolio">
-        <meta name="keywords"
-            content="web design, web developement, full stack web development, react, react native, electron.js">
+        <meta name="keywords" content="web design, web developement, full stack web development, react, react native, electron.js">
         <meta name="author" content="Justin Tolin">
 
         <title>Justin Tolin Portfolio</title>
@@ -14,77 +13,85 @@
     </head>
 
     <body>
-        <header id="main-header">
-            <a href="#" id="title">Justin Tolin</a>
-            <nav id="main-navbar">
-                <ol>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Resumè</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ol>
-            </nav>
+        <header>
+            <div class="container">
+                <div id="branding">
+                    <a href="#">Justin Tolin</a>
+                </div>
+                <nav>
+                    <ol>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">Resumè</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ol>
+                </nav>
+            </div>
         </header>
-        <div id="about-section">
-            <h1>Full-Stack Web Developer</h1>
-            <div id="buttons">
-                <a class="button" href="#">Portfolio</a>
-                <a class="button" href="#">Resumè</a>
-            </div>
-            <div class="social-media-icons">
-                <ol>
-                    <li><a href="#"><img src="..\images\Favicons\email-white-24dp\2x\baseline_email_white_24dp.png" alt="Email Envelope Logo"></a></li>
-                    <li><a href="#"><img src="..\images\Favicons\f-Logos-2019-1\f_Logo_Online_04_2019\white\PNG\f_logo_RGB-White_58.png" alt="White Facebook F Logo"></a></li>
-                    <li><a href="#"><img src="..\images\Favicons\GitHub-Mark\PNG\GitHub-Mark-Light-32px.png" alt="Github Cat Logo"></a></li>
-                    <li><a href="#"><img src="..\images\Favicons\LinkedIn-Logos\In\Digital\White\2x\In-White-34@2x.png" alt="White LinkedIn Logo"></a></li>
-                    <li><a href="#"><img src="..\images\Favicons\Twitter All Brand Resources\Twitter Social Icons\Twitter_SocialIcon_Circle\Twitter_Social_Icon_Circle_White.png" alt="White Twitter Bird Logo"></a></li>
-                </ol>
-            </div>
-        </div>
-        <div id="showcase-section">
-            <div class="showcase">
-                <h2 id="section-header">Website showcase</h2>
-                <div class="website">
-                    <h3 id="website-title">Example Website</h3>
-                    <div id="website-thumbnail"></div>
-                    <p id="website-technologies">
-                        React (Front End) <br> 
-                        Express (Back End)
-                    </p>
-                    <div id="website-buttons">
-                        <a class="button" href="#">Visit Site</a>
-                        <a class="button" href="#">Project<a>
-                    </div>
-                </div>
-                <div class="website">
-                    <h3 id="website-title">Example Website</h3>
-                    <div id="website-thumbnail"></div>
-                    <p id="website-technologies">
-                        React (Front End) <br> 
-                        Express (Back End)
-                    </p>
-                    <div id="website-buttons">
-                        <a class="button" href="#">Visit Site</a>
-                        <a class="button" href="#">Project<a>
-                    </div>
-                </div>
-                <div class="website">
-                    <h3 id="website-title">Example Website</h3>
-                    <div id="website-thumbnail"></div>
-                    <p id="website-technologies">
-                        React (Front End) <br> 
-                        Express (Back End)
-                    </p>
-                    <div id="website-buttons">
-                        <a class="button" href="#">Visit Site</a>
-                        <a class="button" href="#">Project<a>
-                    </div>
-                </div>
-                <div id="SeeMoreButton">
-                    <a class="button" href="#">See More</a>
+
+        <section id="about-section">
+            <div class="container">
+                <h1>Full-Stack Web Developer</h1>
+                <button>Resumè</button>
+                <div class="social-media-icons">
+                    <ol>
+                        <li><a href="#"><img src="..\images\Favicons\email-white-24dp\2x\baseline_email_white_24dp.png" alt="Email Envelope Logo"></a></li>
+                        <li><a href="#"><img src="..\images\Favicons\f-Logos-2019-1\f_Logo_Online_04_2019\white\PNG\f_logo_RGB-White_58.png" alt="White Facebook F Logo"></a></li>
+                        <li><a href="#"><img src="..\images\Favicons\GitHub-Mark\PNG\GitHub-Mark-Light-32px.png" alt="Github Cat Logo"></a></li>
+                        <li><a href="#"><img src="..\images\Favicons\LinkedIn-Logos\In\Digital\White\2x\In-White-34@2x.png" alt="White LinkedIn Logo"></a></li>
+                        <li><a href="#"><img src="..\images\Favicons\Twitter All Brand Resources\Twitter Social Icons\Twitter_SocialIcon_Circle\Twitter_Social_Icon_Circle_White.png" alt="White Twitter Bird Logo"></a></li>
+                    </ol>
                 </div>
             </div>
-        </div>
-        <div class="main-footer">
+        </section>
+        
+        <section id="showcase-section">
+            <div class="container">
+                <div class="showcase">
+                    <h2 id="section-header">Website showcase</h2>
+                    <div class="website">
+                        <h3 id="website-title">Example Website</h3>
+                        <div id="website-thumbnail"></div>
+                        <p id="website-technologies">
+                            React (Front End) <br> 
+                            Express (Back End)
+                        </p>
+                        <div id="website-buttons">
+                            <a class="button" href="#">Visit Site</a>
+                            <a class="button" href="#">Project<a>
+                        </div>
+                    </div>
+                    <div class="website">
+                        <h3 id="website-title">Example Website</h3>
+                        <div id="website-thumbnail"></div>
+                        <p id="website-technologies">
+                            React (Front End) <br> 
+                            Express (Back End)
+                        </p>
+                        <div id="website-buttons">
+                            <a class="button" href="#">Visit Site</a>
+                            <a class="button" href="#">Project<a>
+                        </div>
+                    </div>
+                    <div class="website">
+                        <h3 id="website-title">Example Website</h3>
+                        <div id="website-thumbnail"></div>
+                        <p id="website-technologies">
+                            React (Front End) <br> 
+                            Express (Back End)
+                        </p>
+                        <div id="website-buttons">
+                            <a class="button" href="#">Visit Site</a>
+                            <a class="button" href="#">Project<a>
+                        </div>
+                    </div>
+                    <div id="SeeMoreButton">
+                        <a class="button" href="#">See More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
             <div id="left-footer">
                 <p id="contact-info">
                     <b>Contact Information</b> <br>
@@ -110,6 +117,6 @@
                     </p>
                 </div>
             </div>
-        </div>
+        </footer>
     </body>
 </html>
