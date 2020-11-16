@@ -1,6 +1,6 @@
 const navSlide = () => {
     const burgerMenu = document.querySelector('.burger-menu');
-    const mobileHeader = document.querySelector('.mobile-header');
+    const mobileHeader = document.querySelector('.mobile-nav');
 
     burgerMenu.addEventListener('click', () => {
         mobileHeader.classList.toggle('menu-active');
