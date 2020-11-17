@@ -1,0 +1,19 @@
+/*About Section*/
+#about-section {
+    height: 100vh;
+    background-image: url('/client/Media/Images/work-731198_1920x880.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#about-section h1 {
+    text-align: center;
+}
+
+#about-section #about-content {
+    --lineHeight: 60px;
+
+    line-height: var(--lineHeight);
+    margin: calc(100% - var(--lineHeight)), 0;
+}
