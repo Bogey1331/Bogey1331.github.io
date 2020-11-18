@@ -17,3 +17,19 @@
     line-height: var(--lineHeight);
     margin: calc(100% - var(--lineHeight)), 0;
 }
+
+/*1920-1080 Monitor Sizes*/
+@media screen and (min-width: 600px) {
+    /*About Section*/
+    #about-section #about-content {
+        font-size: 4rem;
+    }
+}
+
+/*4K Monitors*/
+@media screen and (min-width: 2400px) {
+    /*About Section*/
+    #about-section #about-content {
+        font-size: 8rem;
+    }
+}

@@ -98,13 +98,6 @@ header .burger-menu div {
   }
 
   header .mobile-nav {
-    position: absolute;
-      top: 0px;
-      left: 0px;
-      width: 100%;
-      padding: 15px 0;
-      z-index: 1;
-    background-color: #06603A;
     transform: translateY(0px);
     transition: transform .25s ease-in;
   }
