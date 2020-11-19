@@ -20,19 +20,3 @@
     text-align: center;
     padding: 10px 0;
 }
-
-/*FullHD Monitors*/
-@media screen and (min-width: 600px) {
-    /*About Section*/
-    #about-section #about-content {
-        font-size: 2rem;
-    }
-}
-
-/*4K Monitors*/
-@media screen and (min-width: 2400px) {
-    /*About Section*/
-    #about-section #about-content {
-        font-size: 4rem;
-    }
-}

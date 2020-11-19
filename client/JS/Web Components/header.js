@@ -21,6 +21,7 @@ class main_header extends HTMLElement {
 
             header #top-header #branding {
                 float: left;
+                overflow: visible;
             }
 
             header #top-header .hamburger-menu {
@@ -42,7 +43,6 @@ class main_header extends HTMLElement {
                 top: 0px;
                 left: 0px;
                 width: 100%;
-                padding: 15px 0;
                 z-index: 1;
               background-color: #06603A;
               transform: translateY(0px);
@@ -75,6 +75,32 @@ class main_header extends HTMLElement {
             }
             header .burger-menu-active .line3 {
                 transform: rotate(-45deg) translate(5px, -6px);
+            }
+
+            @media screen and (min-width: 500px) {
+                header .hamburger-menu {
+                    display: none;
+                }
+
+                header #top-header {
+                    min-height: inherit;
+                    line-height: inherit;
+                    position: static;
+                    z-index: auto;
+                    float: left;
+                    background-color: transparent;
+                }
+
+                header .nav-bar {
+                    display: inline-block;
+                    min-height: inherit;
+                    line-height: inherit;
+                    width: auto;
+                    position: static;
+                    z-index: auto;
+                    float: right;
+                    background-color: transparent;
+                }
             }
         </style>
         <header>
