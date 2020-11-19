@@ -14,11 +14,11 @@
 }
 
 h1 {
-    font-size: calc(2.5em + 1vw);
+    font-size: calc(2em + 2vw);
 }
 
 h2 {
-    font-size: calc(1.5em + 1vw);
+    font-size: calc(1em + 2vw);
 }
 
 a {

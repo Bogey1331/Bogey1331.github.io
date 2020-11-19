@@ -6,7 +6,7 @@ class main_header extends HTMLElement {
         <style>
             header {
                 min-height: 45px;
-                line-height: 45px;
+                line-height: calc(45px + 2vw);
                 padding: 15px 0px;
                 background-color: #06603A;
             }
@@ -56,7 +56,7 @@ class main_header extends HTMLElement {
 
             header .nav-bar #nav-links li {
                 display: inline;
-                margin: 0 10px;
+                margin: 0 calc(.5em + .5vw);
             }
               
             header .nav-bar #nav-links a:hover {
@@ -77,7 +77,7 @@ class main_header extends HTMLElement {
                 transform: rotate(-45deg) translate(5px, -6px);
             }
 
-            @media screen and (min-width: 500px) {
+            @media screen and (min-width: 700px) {
                 header .hamburger-menu {
                     display: none;
                 }
