@@ -18,6 +18,15 @@ SocialIcon.innerHTML = `
         a {
             margin: 0 calc(5px + .5vw);
         }
+
+        a img {
+            transform: translateY(0px);
+            transition: transform .25s ease-in;
+        }
+
+        a img:hover {
+            transform: translateY(10px);
+        }
     </style>
 
     <a href=""><img

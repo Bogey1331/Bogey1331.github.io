@@ -24,6 +24,11 @@ class main_header extends HTMLElement {
                 overflow: visible;
             }
 
+            header #top-header #branding a {
+                font-family: Verdana, Tahoma, sans-serif;
+                font-size: unset;
+            }
+
             header #top-header .hamburger-menu {
                 float: right;
                 margin: .5em 0;
@@ -106,7 +111,7 @@ class main_header extends HTMLElement {
         <header>
             <div class="container">
                 <div id="top-header">
-                    <h2 id="branding">Justin Tolin</h2>
+                    <h2 id="branding"><a href="/client/HTML Pages/home.html">Justin Tolin</a></h2>
                     <div class="hamburger-menu">
                         <div class="line1"></div>
                         <div class="line2"></div>
