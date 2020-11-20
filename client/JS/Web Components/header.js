@@ -111,7 +111,7 @@ class main_header extends HTMLElement {
         <header>
             <div class="container">
                 <div id="top-header">
-                    <h2 id="branding"><a href="/client/HTML Pages/index.html">Justin Tolin</a></h2>
+                    <h2 id="branding"><a href="/index.html">Justin Tolin</a></h2>
                     <div class="hamburger-menu">
                         <div class="line1"></div>
                         <div class="line2"></div>
