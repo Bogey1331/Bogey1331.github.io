@@ -15,12 +15,3 @@
     text-align: center;
     padding: 10px 0;
 }
-
-#about-section #about-content .social-icons {
-    text-align: center;
-    padding: 10px 0;
-}
-
-#about-section #about-content .social-icons a {
-    margin: 0 calc(5px + .5vw);
-}

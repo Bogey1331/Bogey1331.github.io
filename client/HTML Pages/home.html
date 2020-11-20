@@ -1,61 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Justin Tolin's web design and developement portfolio.">
-    <meta name="keywords" content="web design, web development, full stack web development, react, react native, electronjs">
-    <meta name="author" content="Justin Tolin">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Justin Tolin's web design and developement portfolio.">
+        <meta name="keywords" content="web design, web development, full stack web development, react, react native, electronjs">
+        <meta name="author" content="Justin Tolin">
 
-    <title>Justin Tolin Portfolio</title>
-    <link rel="stylesheet" type="text/css" href="/client/CSS Styles/global.css">
-    <link rel="stylesheet" type="text/css" href="/client/CSS Styles/home.css">
-</head>
-<body>
-    <main-header></main-header>
-    <section id="about-section">
-        <div class="container">
-            <div id="about-content">
-                <h1>Full-Stack Web Developer</h1>
-                <div class="social-icons">
-                    <a href="#"><img
-                        srcset="/client\Media\Favicons\GitHub-Mark\PNG\GitHub-Mark-Light-36px.png 36w,
-                                /client\Media\Favicons\GitHub-Mark\PNG\GitHub-Mark-Light-64px.png 64w,
-                                /client\Media\Favicons\GitHub-Mark\PNG\GitHub-Mark-Light-120px-plus.png 120w"
-                        sizes="(min-width: 700px) and (max-width: 2160px) 64px,
-                                (min-width: 2160px) 120px,
-                                36px"
-                        src="/client\Media\Favicons\GitHub-Mark\PNG\GitHub-Mark-Light-36px.png"
-                        alt="White Github Logo"></a>
-                    <a href="#"><img
-                        srcset="/client\Media\Favicons\LinkedIn-Logos\In\Digital\White\1x\In-White-36.png 36w,
-                                /client\Media\Favicons\LinkedIn-Logos\In\Digital\White\1x\In-White-64.png 64w,
-                                /client\Media\Favicons\LinkedIn-Logos\In\Digital\White\1x\In-White-120.png 120w"
-                        sizes="(min-width: 700px) and (max-width: 2160px) 64px,
-                                (min-width: 2160px) 120px,
-                                36px"
-                        src="/client/Media/Favicons/LinkedIn-Logos/In/Digital/White/1x/In-White-36.png" alt="White Linkedin Logo"></a>
-                    <a href="#"><img
-                        srcset="/client\Media\Favicons\f-Logos-2019-1\f_Logo_Online_04_2019\white\PNG\f_logo_RGB-White_36.png 36w,
-                                /client\Media\Favicons\f-Logos-2019-1\f_Logo_Online_04_2019\white\PNG\f_logo_RGB-White_64.png 64w,
-                                /client\Media\Favicons\f-Logos-2019-1\f_Logo_Online_04_2019\white\PNG\f_logo_RGB-White_120.png 120w"
-                        sizes="(min-width: 700px) and (max-width: 2160px) 64px,
-                                (min-width: 2160px) 120px,
-                                36px"
-                        src="/client/Media/Favicons/f-Logos-2019-1/f_Logo_Online_04_2019/white/PNG/f_logo_RGB-White_36.png" alt="White Facbook Logo"></a>
-                    <a href="#"><img
-                        srcset="/client\Media\Favicons\Twitter-All-Brand-Resources\Twitter-Social-Icons\Twitter_SocialIcon_Circle\Twitter_Social_Icon_Circle_White-36px.png 36w,
-                                /client\Media\Favicons\Twitter-All-Brand-Resources\Twitter-Social-Icons\Twitter_SocialIcon_Circle\Twitter_Social_Icon_Circle_White-64px.png 64w,
-                                /client\Media\Favicons\Twitter-All-Brand-Resources\Twitter-Social-Icons\Twitter_SocialIcon_Circle\Twitter_Social_Icon_Circle_White-120px.png 120w"
-                        sizes="(min-width: 700px) and (max-width: 2160px) 64px,
-                                (min-width: 2160px) 120px,
-                                36px"
-                        src="/client\Media\Favicons\Twitter-All-Brand-Resources\Twitter-Social-Icons\Twitter_SocialIcon_Circle\Twitter_Social_Icon_Circle_White-36px.png" alt="White Twitter Logo"></a>
+        <title>Justin Tolin Portfolio</title>
+        <link rel="stylesheet" type="text/css" href="/client/CSS Styles/global.css">
+        <link rel="stylesheet" type="text/css" href="/client/CSS Styles/home.css">
+    </head>
+    <body>
+        <main-header></main-header>
+        <section id="about-section">
+            <div class="container">
+                <div id="about-content">
+                    <h1>Full-Stack Web Developer</h1>
+                    <social-icon-bar icons='[{"name":"GitHub"}, {"name":"LinkedIn"}, {"name":"Facebook"}, {"name":"Twitter"}]'></social-icon-bar>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <script src="/client/JS/Web Components/header.js"></script>
-</body>
+        <script src="/client/JS/Web Components/header.js"></script>
+        <script src="/client/JS/Web Components/social-icons.js"></script>
+    </body>
 </html>
