@@ -50,7 +50,6 @@ class SocialIconBar extends HTMLElement {
             socialIcon.setAttribute('name' , icons[i].name);
 
             this.shadowRoot.getElementById('social-bar').appendChild(socialIcon);
-            console.log(icons[i].name);
         }
     }
 }
