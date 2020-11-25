@@ -15,17 +15,10 @@ class website_showcase extends HTMLElement {
 
             </div>
         `;
-
-        let request = new XMLHttpRequest();
-        request.open('GET', 'http://localhost:1337/project');
-        request.responseType = 'json';
-        request.send();
-
-        console.log(request.response);
     }
 }
 
-class website_item extends HTMLElement {
+class website_card extends HTMLElement {
     constructor() {
         super();
 
@@ -34,12 +27,19 @@ class website_item extends HTMLElement {
             
             </style>
 
-            <div class="website-item">
-
+            {%- if strapi.collections.projects.size > 0 -%}
+            <div class="website-card">
+                <h3 id="name">{{projects:0.name}}</h3>
+                <a><img id="thumbnail"></img></a>
+                <p id="description"></p>
+                <div id="buttons">
+                    <button id="button-left">Visit Site</button>
+                    <button id="button-right">Github Project</button>
+                </div>
             </div>
         `;
     }
 }
 
 window.customElements.define('website-showcase', website_showcase);
-window.customElements.define('website-item', website_item);
+window.customElements.define('website-card', website_card);
