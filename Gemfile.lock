@@ -270,7 +270,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  github-pages (~> 209)
+  github-pages (= 209)
+  jekyll
   jekyll-strapi
 
 BUNDLED WITH
