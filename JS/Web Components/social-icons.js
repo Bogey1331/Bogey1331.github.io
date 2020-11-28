@@ -3,7 +3,7 @@ SocialBar.innerHTML = `
     <style>
         .social-icons {
             text-align: center;
-            padding: 10px 0;
+            padding: calc(10px + 1vw) 0;
         }
     </style>
 
@@ -25,7 +25,7 @@ SocialIcon.innerHTML = `
         }
 
         a img:hover {
-            transform: translateY(10px);
+            transform: translateY(calc(10px + 1vw));
         }
     </style>
 
