@@ -8,12 +8,16 @@
 }
 
 #about-section #about-content {
-    margin: calc(30vh + 1vw) 0;
+    margin: calc(25vh + 1vw) 0;
 }
 
 #about-section #about-content h1 {
     text-align: center;
     padding: calc(10px + 1vw) 0;
+}
+
+#about-section #about-content social-icon-bar-med {
+    text-align: center;
 }
 
 #showcase-section {

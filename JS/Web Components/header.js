@@ -133,8 +133,6 @@ class main_header extends HTMLElement {
                             <li><a href="#">Portfolio</a></li>
                             <div></div>
                             <li><a href="#">Resumè</a></li>
-                            <div></div>
-                            <li><a href="#">Contact</a></li>
                         </ol>
                     </nav>
                 </div>

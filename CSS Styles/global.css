@@ -25,9 +25,13 @@ h3 {
     font-size: calc(18px + 1vw);
 }
 
+h4 {
+    font-size: calc(5px + 1vw);
+}
+
 a {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: calc(14px + 1vw);
+    font-size: calc(12px + .75vw);
     color: #ffffff;
     text-decoration: none;
 }
