@@ -99,13 +99,13 @@ header .burger-menu-active .line3 {
     }
 
     header .nav-bar {
-        display: inline-block;
         min-height: inherit;
         line-height: inherit;
         width: auto;
         padding: 0;
         position: static;
         z-index: auto;
+        float: right;
         background-color: transparent;
     }
 }
