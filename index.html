@@ -1,3 +1,6 @@
+---
+---
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -12,12 +15,12 @@
         <link rel="stylesheet" type="text/css" href="/CSS Styles/home.css">
     </head>
     <body>
-        <main-header></main-header>
+        {% include header.html %}
         <section id="about-section">
             <div class="container">
                 <div id="about-content">
                     <h1>Full-Stack Web Developer</h1>
-                    <social-icon-bar-med></social-icon-bar-med>
+                    {% include social-icons-medium.html %}
                 </div>
             </div>
         </section>
@@ -26,16 +29,12 @@
                 <div id="showcase-content">
                     <h2>Featured Websites</h2>
                     <website-showcase></website-showcase>
-                    <button id="seemore-button" name="see more" type="button">See More</button>
+                    
                 </div>
             </div>
         </section>
-        <main-footer></main-footer>
+        {% include footer.html %}
 
-        <script src="/JS/Web Components/header.js"></script>
-        <script src="/JS/Web Components/social-icons-small.js"></script>
-        <script src="/JS/Web Components/social-icons-medium.js"></script>
         <script src="/JS/Web Components/website-showcase.js"></script>
-        <script src="/JS/Web Components/footer.js"></script>
     </body>
 </html>

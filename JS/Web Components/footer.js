@@ -13,7 +13,6 @@ footer_template.innerHTML = `
 </style>
 <footer>
     <div class="container">
-        <social-icon-bar-small></social-icon-bar-small>
         <h4>Copyright &copy;2020</h4>
     </div>
     <link rel='stylesheet' href='/CSS Styles/global.css'>

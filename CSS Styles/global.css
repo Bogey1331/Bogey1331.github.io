@@ -42,21 +42,3 @@ p {
     font-weight: normal;
     color: #ffffff;
 }
-
-button {
-    min-width: 90px;
-    min-height: 27.5px;
-    font-size: calc(8px + 1vw);
-    padding: calc(8px + 1vw);
-    border: none;
-    border-radius: calc(60px + 1vw);
-    background-color: #3c3c3c;
-}
-
-button:hover {
-    background-color: #06603A;
-}
-
-button:focus {
-    outline: none;
-}

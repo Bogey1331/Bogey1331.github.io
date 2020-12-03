@@ -1,0 +1,15 @@
+.social-icons {
+    padding: calc(10px + .5vw) 0;
+}
+a {
+    margin: 0 calc(5px + .5vw);
+}
+
+a img {
+    transform: translateY(0px);
+    transition: transform .25s ease-in;
+}
+
+a img:hover {
+    transform: translateY(calc(5px + .5vw));
+}
