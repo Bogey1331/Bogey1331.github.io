@@ -1,0 +1,8 @@
+.social-icons-small a {
+    margin: 0 calc(1px + .25vw);
+}
+
+.social-icons-small a img {
+    transform: translateY(0px);
+    transition: transform .25s ease-in;
+}

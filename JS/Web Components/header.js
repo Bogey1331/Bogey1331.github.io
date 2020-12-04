@@ -6,14 +6,14 @@ class main_header extends HTMLElement {
         <style>
             header {
                 min-height: 45px;
-                line-height: calc(45px + 2vw);
-                padding: 15px 0px;
+                line-height: calc(45px + 1vw);
+                padding: calc(15px + 1vw) 0px;
                 background-color: #06603A;
             }
 
             header #top-header {
                 min-height: 45px;
-                line-height: 45px;
+                line-height: calc(45px + 1vw);
                 position: relative;
                 z-index: 2;
                 background-color: #06603A;
@@ -48,6 +48,7 @@ class main_header extends HTMLElement {
                 top: 0px;
                 left: 0px;
                 width: 100%;
+                padding: calc(15px + 1vw) 0px;
                 z-index: 1;
               background-color: #06603A;
               transform: translateY(0px);
@@ -61,7 +62,14 @@ class main_header extends HTMLElement {
 
             header .nav-bar #nav-links li {
                 display: inline;
-                margin: 0 calc(.5em + .5vw);
+                margin: 0 calc(5px + 1vw);
+            }
+
+            header .nav-bar #nav-links div {
+                display: inline-block;
+                width: calc(3px + .25vw);
+                height: calc(9px + .5vw);
+                background-color: #ffffff;
             }
               
             header .nav-bar #nav-links a:hover {
@@ -101,6 +109,7 @@ class main_header extends HTMLElement {
                     min-height: inherit;
                     line-height: inherit;
                     width: auto;
+                    padding: 0;
                     position: static;
                     z-index: auto;
                     float: right;
@@ -122,8 +131,8 @@ class main_header extends HTMLElement {
                     <nav id="nav-links">
                         <ol>
                             <li><a href="#">Portfolio</a></li>
+                            <div></div>
                             <li><a href="#">Resumè</a></li>
-                            <li><a href="#">Contact</a></li>
                         </ol>
                     </nav>
                 </div>

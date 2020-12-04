@@ -1,0 +1,16 @@
+plugins:
+  - github-pages
+  - jekyll-strapi
+
+exclude: [/Strapi]
+
+strapi:
+    endpoint: http://localhost:1337
+    collections:
+        projects:
+          type: projects
+          permalink: /projects/:uid/
+
+        categories:
+          type: categories
+          permalink: /categories/:uid/

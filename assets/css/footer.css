@@ -1,0 +1,9 @@
+footer {
+    min-height: 30px;
+    padding: calc(2px + .5vw) 0;
+    background-color: #06603A;
+}
+
+social-icon-bar {
+    text-align: left;
+}
