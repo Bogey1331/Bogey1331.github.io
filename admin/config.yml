@@ -2,7 +2,7 @@
 
 backend:
   name: github
-  repo: bogey1331/bogey1331/github.io
+  repo: Bogey1331/Bogey1331/github.io
   branch: master
   site_domain: festive-noether-b713b9.netlify.com
   base_url: https://api.netlify.com
