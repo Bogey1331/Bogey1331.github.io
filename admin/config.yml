@@ -1,0 +1,23 @@
+# config.yml
+
+backend:
+  name: github
+  repo: Bogey1331/Bogey1331.github.io
+  branch: working
+media_folder: 'assets/images/uploads'
+collections:
+  - name: 'project'
+    label: 'Project'
+    folder: '_posts/project'
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Thumbnail", name: "thumbnail", widget: "image"}
+      - {label: "Description", name: "description", widget: "text"}
+      - {label: "Site URL", name: "site_url", widget: "string"}
+      - {label: "Repo URL", name: "repo_url", widget: "string"}
+      - {label: "Technologies", name: "technologies", widget: "list", allow_add: true, fields: [
+        {label: "Name", name: "technology_name", widget: "string"},
+        {label: "Stack", name: "technology_stack", widget: "select", options: ["front-end", "back-end"]}]}
+      - {label: "Project Type", name: "project_type", widget: "select", options: ["personal", "professional"]}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
