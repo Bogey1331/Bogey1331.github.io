@@ -1,5 +1,5 @@
 ---
-title: Portfolio
+title: Portfolio Website
 thumbnail: /assets/images/uploads/work-731198_1920x880.jpg
 description: GitHub Pages site to display projects.
 site_url: https://bogey1331.github.io/
