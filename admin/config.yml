@@ -13,8 +13,9 @@ publish_mode: editorial_workflow
 collections:
   - name: 'project'
     label: 'Project'
-    folder: '_posts/project'
+    folder: '_posts/projects'
     create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Thumbnail", name: "thumbnail", widget: "image"}

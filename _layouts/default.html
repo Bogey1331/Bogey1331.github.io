@@ -8,10 +8,10 @@
         <meta name="author" content="Justin Tolin">
 
         <title>{{page.title}}</title>
+{% if page.url == "/" %}
+{% include netlifyidentitywidget.html %}
+{% endif %}
         <link rel="stylesheet" type="text/css" href="/assets/css/global.css">
-        {% if page.url == "/" %}
-        {% include netlifyidentitywidget.html %}
-        {% endif %}
     </head>
     <body>
         {% include header.html %}
