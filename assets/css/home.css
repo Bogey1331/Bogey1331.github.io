@@ -44,13 +44,14 @@
 #showcase-section #showcase-content .website-showcase {
     margin: calc(10px + 1vw) 0;
     height: auto;
-    width: 90%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
 }
 
 @media screen and (min-width: 1675px) {
     #showcase-section #showcase-content .website-showcase {
         width: 100%;
-        display: grid;
         {% if site.posts.size <= 1 %}
         grid-template-columns: 1fr;
         {% endif %}
