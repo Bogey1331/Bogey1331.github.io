@@ -1,13 +1,8 @@
 # config.yml
 
 backend:
-  name: github
-  repo: Bogey1331/Bogey1331.github.io
-  branch: master
-  site_domain: festive-noether-b713b9.netlify.com
-  base_url: https://api.netlify.com
-  auth_endpoint: auth
-  cms_label_prefix: netlify-cms/
+  name: test-repo
+
 media_folder: 'assets/images/uploads'
 publish_mode: editorial_workflow
 collections:
@@ -26,11 +21,5 @@ collections:
         {label: "Name", name: "technology_name", widget: "string"},
         {label: "Stack", name: "technology_stack", widget: "select", options: ["front-end", "back-end"]}]}
       - {label: "Project Type", name: "project_type", widget: "select", options: ["personal", "professional"]}
+      - {label: "Categories", name: "categories", widget: "select", multiple: true, options: ["all", "featured"]}
       - {label: "Publish Date", name: "date", widget: "datetime"}
-  - name: 'featured'
-    label: 'Featured Projects'
-    folder: 'projects/featured/_posts'
-    create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    fields:
-      - {label: "Project Name", name: "reference_name", widget: "relation", collection: "project", search_fields: ["title", "technologies.technology_name"], value_field: "title", display_fields: ["title", "description"]}
