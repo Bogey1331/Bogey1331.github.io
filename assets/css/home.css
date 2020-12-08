@@ -29,7 +29,6 @@
 }
 
 #showcase-section #showcase-content {
-    min-height: 800px;
     padding: calc(20px + 1vw) 0 calc(50px + 1vw) 0;
     margin: auto;
     border-radius: calc(65px + 1vw);
