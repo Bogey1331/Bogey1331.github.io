@@ -33,4 +33,4 @@ collections:
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
-      - {label: "Featured Project", name: "reference", widget: "relation", collection: "project", search_fields: ["title", "technologies.technology_name"], value_field: ["title", "thumbnail", "description", "site_url", "repo_url"], display_fields: "title"}
+      - {label: "Featured Project", name: "reference", widget: "relation", collection: "project", search_fields: ["title", "technologies.technology_name"], value_field: "title", display_fields: "title"}
