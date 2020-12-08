@@ -18,5 +18,8 @@ technologies:
   - technology_name: GitHub Pages
     technology_stack: back-end
 project_type: personal
+categories:
+  - all
+  - featured
 date: 2020-12-04T22:00:37.044Z
 ---
