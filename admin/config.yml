@@ -13,7 +13,7 @@ publish_mode: editorial_workflow
 collections:
   - name: 'project'
     label: 'Projects'
-    folder: 'projects/all/_posts'
+    folder: '_posts'
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
