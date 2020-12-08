@@ -28,9 +28,9 @@ collections:
       - {label: "Project Type", name: "project_type", widget: "select", options: ["personal", "professional"]}
       - {label: "Publish Date", name: "date", widget: "datetime"}
   - name: 'featured'
-    label: 'Featured'
+    label: 'Featured Projects'
     folder: 'projects/featured/_posts'
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
-      - {label: "Featured Project", name: "reference", widget: "relation", collection: "project", search_fields: ["title", "technologies.technology_name"], value_field: "title", display_fields: "title"}
+      - {label: "Project Name", name: "reference_name", widget: "relation", collection: "project", search_fields: ["title", "technologies.technology_name"], value_field: "title", display_fields: ["title", "description"]}
