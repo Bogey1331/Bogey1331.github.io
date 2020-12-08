@@ -30,7 +30,7 @@
 
 #showcase-section #showcase-content {
     min-height: 800px;
-    padding: calc(20px + 1vw) 0;
+    padding: calc(20px + 1vw) 0 calc(50px + 1vw) 0;
     margin: auto;
     border-radius: calc(65px + 1vw);
     text-align: center;
@@ -38,12 +38,11 @@
 }
 
 #showcase-section #showcase-content h2 {
-    padding: 0 0 calc(10px + 1vw) 0;
     text-align: center;
 }
 
 #showcase-section #showcase-content .website-showcase {
-    margin: auto;
+    margin: calc(10px + 1vw) 0;
     height: auto;
     width: 90%;
 }
@@ -62,6 +61,5 @@
 }
 
 #showcase-section #showcase-content #seemore-button {
-    margin: calc(80px + 1vw) 0;
     box-shadow: 0px calc(12px + 1vw) calc(16px + 1vw) rgba(0, 0, 0, .5);
 }

@@ -12,8 +12,8 @@ media_folder: 'assets/images/uploads'
 publish_mode: editorial_workflow
 collections:
   - name: 'project'
-    label: 'Project'
-    folder: '_posts/projects'
+    label: 'Projects'
+    folder: 'projects/all/_posts'
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
@@ -27,3 +27,10 @@ collections:
         {label: "Stack", name: "technology_stack", widget: "select", options: ["front-end", "back-end"]}]}
       - {label: "Project Type", name: "project_type", widget: "select", options: ["personal", "professional"]}
       - {label: "Publish Date", name: "date", widget: "datetime"}
+  - name: 'featured'
+    label: 'Featured'
+    folder: 'projects/featured/_posts'
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "Featured Project", name: "reference", widget: "relation", collection: "project", search_fields: ["title", "technologies.technology_name"], value_field: ["title", "thumbnail", "description", "site_url", "repo_url"], display_fields: "title"}

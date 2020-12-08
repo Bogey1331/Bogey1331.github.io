@@ -16,15 +16,10 @@ title: Home
 <section id="showcase-section">
   <div class="container">
     <div id="showcase-content">
-      {% if site.posts.size <= 1 %}
-      <h2>Featured Website</h2>
-      {% endif %}
-      {% if site.posts.size > 1 %}
       <h2>Featured Websites</h2>
-      {% endif %}
       <div class="website-showcase">
-        {% for post in site.posts %}
-        {% include project.html title=post.title thumbnail=post.thumbnail description=post.description site_url=post.site_url repo_url=post.repo_url %}
+        {% for post in site.categories.featured %}
+          {% include project.html title=post.title thumbnail=post.thumbnail description=post.description repo_url=post.repo_url site_url=post.site_url %}
         {% endfor %}
       </div>
       <a class="button" id="seemore-button" href="#">See More</a>
