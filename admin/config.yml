@@ -21,9 +21,5 @@ collections:
       - {label: "Description", name: "description", widget: "text"}
       - {label: "Site URL", name: "site_url", widget: "string"}
       - {label: "Repo URL", name: "repo_url", widget: "string"}
-      - {label: "Technologies", name: "technologies", widget: "list", allow_add: true, fields: [
-        {label: "Name", name: "technology_name", widget: "string"},
-        {label: "Stack", name: "technology_stack", widget: "select", options: ["front-end", "back-end"]}]}
-      - {label: "Project Type", name: "project_type", widget: "select", options: ["personal", "professional"]}
-      - {label: "Categories", name: "categories", widget: "select", multiple: true, options: ["all", "featured"]}
+      - {label: "Categories", name: "categories", widget: "select", options: ["featured"]}
       - {label: "Publish Date", name: "date", widget: "datetime"}
