@@ -1,8 +1,6 @@
 ---
+project_type: personal
 title: Portfolio Website
-thumbnail: /assets/images/uploads/work-731198_1920x880.jpg
-description: GitHub Pages site to display projects.
-site_url: https://bogey1331.github.io/
 repo_url: https://github.com/Bogey1331/Bogey1331.github.io/tree/master
 technologies:
   - technology_name: HTML
@@ -17,9 +15,9 @@ technologies:
     technology_stack: back-end
   - technology_name: GitHub Pages
     technology_stack: back-end
-project_type: personal
-categories:
-  - all
-  - featured
-date: 2020-12-04T22:00:37.044Z
+thumbnail: /assets/images/uploads/work-731198_1920x880.jpg
+description: GitHub Pages site to display projects.
+site_url: https://bogey1331.github.io/
+categories: featured
+date: 2020-12-09T22:39:28.828Z
 ---
