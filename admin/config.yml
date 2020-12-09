@@ -9,6 +9,7 @@ backend:
   cms_label_prefix: netlify-cms/
 media_folder: 'assets/images/uploads'
 publish_mode: editorial_workflow
+display_url: https://bogey1331.github.io
 collections:
   - name: 'project'
     label: 'Projects'
