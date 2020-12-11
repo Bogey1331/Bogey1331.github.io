@@ -1,5 +1,4 @@
 # config.yml
-
 backend:
   name: github
   repo: Bogey1331/Bogey1331.github.io
@@ -10,19 +9,18 @@ backend:
   cms_label_prefix: netlify-cms/
 media_folder: 'assets/images/uploads'
 publish_mode: editorial_workflow
+display_url: https://bogey1331.github.io
 collections:
   - name: 'project'
-    label: 'Project'
-    folder: '_posts/project'
+    label: 'Projects'
+    folder: '_posts'
     create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Thumbnail", name: "thumbnail", widget: "image"}
       - {label: "Description", name: "description", widget: "text"}
       - {label: "Site URL", name: "site_url", widget: "string"}
       - {label: "Repo URL", name: "repo_url", widget: "string"}
-      - {label: "Technologies", name: "technologies", widget: "list", allow_add: true, fields: [
-        {label: "Name", name: "technology_name", widget: "string"},
-        {label: "Stack", name: "technology_stack", widget: "select", options: ["front-end", "back-end"]}]}
-      - {label: "Project Type", name: "project_type", widget: "select", options: ["personal", "professional"]}
+      - {label: "Categories", name: "categories", widget: "select", options: ["featured"]}
       - {label: "Publish Date", name: "date", widget: "datetime"}

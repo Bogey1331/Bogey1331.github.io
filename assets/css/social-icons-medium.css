@@ -1,15 +1,15 @@
-.social-icons-med {
+.social_icons-med {
     padding: calc(10px + .5vw) 0;
 }
-.social-icons-med a {
+.social_icons-med a {
     margin: 0 calc(5px + .5vw);
 }
 
-.social-icons-med a img {
+.social_icons-med a img {
     transform: translateY(0px);
     transition: transform .25s ease-in;
 }
 
-.social-icons-med a img:hover {
+.social_icons-med a img:hover {
     transform: translateY(calc(5px + .5vw));
 }

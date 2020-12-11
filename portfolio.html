@@ -1,0 +1,17 @@
+---
+layout: default
+title: Portfolio
+---
+        <link rel="stylesheet" type="text/css" href="/assets/css/portfolio.css">
+        <section id="portfolio-section">
+            <div class="container">
+                <div id="portfolio-content">
+                    <h2>Portfolio Projects</h2>
+                    <div class="website-showcase">
+                    {% for post in site.posts %}
+                        {% include project.html title=post.title thumbnail=post.thumbnail description=post.description repo_url=post.repo_url site_url=post.site_url %}
+                    {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </section>

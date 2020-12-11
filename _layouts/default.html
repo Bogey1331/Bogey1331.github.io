@@ -4,14 +4,23 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Justin Tolin's web design and developement portfolio.">
-        <meta name="keywords" content="web design, web development, full stack web development, react, react native, electronjs">
-        <meta name="author" content="Justin Tolin">
+        <meta name="keywords" content="website, web design, web development, full-stack, full-stack web development, full-stack web developer, react, react native, electronjs">
 
+        <meta property="og:title" content="Justin Tolin Portfolio">
+        <meta property="og:description" content="Portfolio of projects that I've worked on.">
+        <meta property="og:image" content="https://bogey1331.github.io/assets/images/SocialMedia_Thumbnail.png">
+        <meta property="og:url" content="https://bogey1331.github.io/index.html">
+        <meta name="twitter:card" content="summary_large_image">
+        <meta property="og:site_name" content="Justin Tolin Portfolio">
+        <meta name="twitter:image:alt" content="Home Page of Justin Tolin's Portfolio Website">
+
+        <meta name="author" content="Justin Tolin">
         <title>{{page.title}}</title>
+{% if page.url == "/" %}
+{% include netlifyidentitywidget.html %}
+{% endif %}
+        <link rel="icon" type="image/png" href="/favicon.png">
         <link rel="stylesheet" type="text/css" href="/assets/css/global.css">
-        {% if page.url == "/" %}
-        {% include netlifyidentitywidget.html %}
-        {% endif %}
     </head>
     <body>
         {% include header.html %}

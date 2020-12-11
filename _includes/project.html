@@ -1,10 +1,10 @@
-<link rel="stylesheet" href="/assets/css/project.css">
-
-<div class="website-card">
-    <h3 id="name"></h3>
-    <a><img id="thumbnail" src=""></img></a>
-    <p id="description"></p>
-    <div id="buttons">
-        
+<link rel="stylesheet" type="text/css" href="/assets/css/project.css">
+<div class="website_card">
+    <h3 id="name">{{include.title}}</h3>
+    <a href={{include.site_url}} target="_blank"><img id="thumbnail" src={{include.thumbnail}}></img></a>
+    <p id="description">{{include.description}}</p>
+    <div id="card_buttons">
+        <a class="button" id="button-left" href={{include.site_url}} target="_blank">Visit Site</a>
+        <a class="button" id="button-right" href={{include.repo_url}} target="_blank"><img src="/assets/images/Favicons/GitHub-Mark/PNG/GitHub-Mark-Light-36px.png"></img> Project</a>
     </div>
 </div>

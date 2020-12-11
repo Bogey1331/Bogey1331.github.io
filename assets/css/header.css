@@ -5,7 +5,7 @@ header {
     background-color: #06603A;
 }
 
-header #top-header {
+header #main_header {
     min-height: 45px;
     line-height: calc(45px + 1vw);
     position: relative;
@@ -13,23 +13,23 @@ header #top-header {
     background-color: #06603A;
 }
 
-header #top-header #branding {
+header #main_header #branding {
     float: left;
     overflow: visible;
 }
 
-header #top-header #branding a {
+header #main_header #branding a {
     font-family: Verdana, Tahoma, sans-serif;
     font-size: unset;
 }
 
-header #top-header .hamburger-menu {
+header #main_header .hamburger_menu {
     float: right;
     margin: .5em 0;
     cursor: pointer;
 }
 
-header #top-header .hamburger-menu div {
+header #main_header .hamburger_menu div {
     width: 25px;
     height: 3px;
     margin: 5px 0px;
@@ -74,22 +74,22 @@ header .menu-active {
     transform: translateY(70px);
 }
 
-header .burger-menu-active .line1 {
+header .burger_menu-active .line1 {
     transform: rotate(45deg) translate(5px, 6px);
 }
-header .burger-menu-active .line2 {
+header .burger_menu-active .line2 {
     opacity: 0;
 }
-header .burger-menu-active .line3 {
+header .burger_menu-active .line3 {
     transform: rotate(-45deg) translate(5px, -6px);
 }
 
 @media screen and (min-width: 700px) {
-    header .hamburger-menu {
+    header .hamburger_menu {
         display: none;
     }
 
-    header #top-header {
+    header #main_header {
         min-height: inherit;
         line-height: inherit;
         position: static;

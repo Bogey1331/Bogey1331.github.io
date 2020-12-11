@@ -36,6 +36,17 @@ a {
     text-decoration: none;
 }
 
+.button {
+    font-size: calc(8px + 1vw);
+    padding: calc(8px + 1vw);
+    border-radius: calc(60px + 1vw);
+    background-color: #3c3c3c;
+}
+
+.button:hover {
+    background-color: #06603A;
+}
+
 p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: calc(10px + 1vw);

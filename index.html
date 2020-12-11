@@ -3,32 +3,43 @@ layout: default
 title: Home
 ---
 
-<link rel="stylesheet" type="text/css" href="assets/css/home.css">
+<link rel="stylesheet" type="text/css" href="assets/css/index.css">
+
 <section id="about-section">
-    <div class="container">
-        <div id="about-content">
-            <h1>Full-Stack Web Developer</h1>
-            {% include social-icons-medium.html %}
-        </div>
+  <div class="container">
+    <div id="about-content">
+      <h1>Full-Stack Web Developer</h1>
+      {% include social-icons-medium.html %}
     </div>
+  </div>
 </section>
 <section id="showcase-section">
-    <div class="container">
-        <div id="showcase-content">
-            <h2>Featured Websites</h2>
-        </div>
+  <div class="container">
+    <div id="showcase-content">
+        {% if site.posts.size > 1 %}
+        <h2>Featured Websites</h2>
+        {% endif %}
+        {% if site.posts.size <= 1 %}
+        <h2>Featured Website</h2>
+        {% endif %}
+      <div class="website-showcase">
+      {% for post in site.categories.featured %}
+        {% include project.html title=post.title thumbnail=post.thumbnail description=post.description repo_url=post.repo_url site_url=post.site_url %}
+      {% endfor %}
+      </div>
+      <a class="button" id="seemore-button" href="portfolio.html">See More</a>
     </div>
+  </div>
 </section>
 
-<script src="/assets/js/index.js"></script>
 <script>
-    if (window.netlifyIdentity) {
-      window.netlifyIdentity.on("init", user => {
-        if (!user) {
-          window.netlifyIdentity.on("login", () => {
-            document.location.href = "/admin/";
-          });
-        }
-      });
-    }
-  </script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>
