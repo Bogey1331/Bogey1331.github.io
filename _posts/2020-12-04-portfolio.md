@@ -15,7 +15,7 @@ technologies:
     technology_stack: back-end
   - technology_name: GitHub Pages
     technology_stack: back-end
-thumbnail: /assets/images/uploads/work-731198_1920x880.jpg
+thumbnail: /assets/images/uploads/screenshot-2020-12-09-170139.png
 description: GitHub Pages site to display projects.
 site_url: https://bogey1331.github.io/
 categories: featured
