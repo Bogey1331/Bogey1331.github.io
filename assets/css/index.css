@@ -3,11 +3,29 @@
 
 /*About Section*/
 #about-section {
-    height: 92vh;
-    background-image: url('/assets/images/work-731198_1920x880.jpg');
+    height: 90vh;
+    background-image: url("/assets/images/HomePage_Background_360.jpeg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+@media screen and (min-width: 500px) and (max-width: 1100px) {
+    #about-section {
+        background-image: url("/assets/images/HomePage_Background_1024.jpeg")
+    }
+}
+
+@media screen and (min-width: 1101px) and (max-width: 2160px) {
+    #about-section {
+        background-image: url("/assets/images/HomePage_Background_1920.jpeg")
+    }
+}
+
+@media screen and (min-width: 2161px) and (max-width: 4000px) {
+    #about-section {
+        background-image: url("/assets/images/HomePage_Background_3840.jpeg")
+    }
 }
 
 #about-section #about-content {
@@ -19,7 +37,7 @@
     padding: calc(10px + 1vw) 0;
 }
 
-#about-section #about-content .social-icon-bar-med {
+#about-section #about-content .social_icon_bar-med {
     text-align: center;
 }
 

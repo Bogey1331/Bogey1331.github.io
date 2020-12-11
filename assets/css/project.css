@@ -1,4 +1,4 @@
-.website-card {
+.website_card {
     width: 80%;
     padding: calc(20px + 1vw) calc(10px + 1vw);
     margin: calc(20px + 1vw) auto;
@@ -6,41 +6,41 @@
     box-shadow: 0px calc(12px + 1vw) calc(16px + 1vw) rgba(0, 0, 0, .5);
     background-color: #2c2c2c;
 }
-.website-card #name {
+.website_card #name {
     margin: 0 0 calc(5px + 1vw) 0;
     text-align: center;
 }
-.website-card #description {
+.website_card #description {
     margin: 0 0 calc(5px + 1vw) 0;
     text-align: left;
 }
-.website-card #thumbnail {
+.website_card #thumbnail {
     margin: calc(5px + 1vw) 0;
     width: 100%;
 }
-.website-card #card_buttons {
+.website_card #card_buttons {
     margin: calc(20px + 1vw) 0 calc(10px + 1vw) 0;
     text-align: center;
 }
-.website-card #card_buttons #button-left {
+.website_card #card_buttons #button-left {
     margin: 0 calc(5px + 1vw) 0 0;
 }
-.website-card #card_buttons #button-right {
+.website_card #card_buttons #button-right {
     margin: 0 0 0 calc(5px + 1vw);
 }
-.website-card #card_buttons #button-right img {
+.website_card #card_buttons #button-right img {
     width: calc(5px + 1vw);
 }
 @media screen and (max-width: 250px) {
-    .website-card #card_buttons .button {
+    .website_card #card_buttons .button {
         display: inline-block;
         width: 40%;
         text-align: center;
     }
-    .website-card #card_buttons #button-left {
+    .website_card #card_buttons #button-left {
         margin: 0 0 calc(5px + 1vw) 0;
     }
-    .website-card #card_buttons #button-right {
+    .website_card #card_buttons #button-right {
         margin: calc(5px + 1vw) 0 0 0;
     }
 }
